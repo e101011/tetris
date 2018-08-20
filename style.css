@@ -8,6 +8,14 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+canvas {
+	width: 288px;
+}
+
+canvas:not(.next-element) {
+	height: 480px;
+}
+
 .wrap {
 	text-align: center;
 }
